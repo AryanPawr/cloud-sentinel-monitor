@@ -1,16 +1,34 @@
-# React + Vite
+#  Cloud Sentinel: High-Availability Reliability Monitor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Cloud Sentinel** is a full-stack SRE (Site Reliability Engineering) platform designed to monitor distributed microservices, track real-time telemetry, and manage the incident response lifecycle. Built with a focus on **Security-by-Design** and **System Resilience**.
 
-Currently, two official plugins are available:
+##  Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+###  Reliability & Observability (SRE)
+- **Service Health Tracking:** Real-time monitoring of API, Database, and CDN nodes.
+- **Incident Lifecycle:** Integrated P1/P2/P3 alerting system with "Resolve" and "Delete" workflows.
+- **Latency Visualization:** Dynamic response-time bars for identifying performance bottlenecks.
+- **Stateless Architecture:** Designed for horizontal scaling and cloud-native deployment.
 
-## React Compiler
+###  Cybersecurity & Hardening
+- **JWT-Protected Telemetry:** All API routes are hardened with JSON Web Token (JWT) authentication.
+- **Role-Based Access Simulation:** Secure login flow with encrypted credential handling.
+- **Sanitized Data Flow:** Protection against common injection vectors in service management.
+- **Audit Trails:** Timestamps and duration tracking for all system incidents.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Tech Stack
+- **Frontend:** React, Tailwind CSS (Custom Dark-Minimalist Cyberpunk Aesthetic).
+- **Backend:** Node.js, Express.js.
+- **Security:** JWT (JSON Web Tokens), Axios Interceptors.
+- **Infrastructure:** In-memory high-speed store (Ready for MongoDB/PostgreSQL migration).
 
-## Expanding the ESLint configuration
+##  SRE Testing Roadmap
+1. [ ] **Chaos Engineering:** Implement latency injection to test frontend skeleton states.
+2. [ ] **Dockerization:** Containerize with `docker-compose` for environment parity.
+3. [ ] **Load Testing:** Stress test the `/alerts` endpoint using k6.
+4. [ ] **CI/CD:** GitHub Actions for automated security scanning (Snyk/CodeQL).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Getting Started
+1. Clone the repo: `git clone https://github.com/AryanPawr/cloud-sentinel-monitor.git`
+2. Install dependencies: `npm install` (in both root and backend).
+3. Start the engine: `npm run dev`.
