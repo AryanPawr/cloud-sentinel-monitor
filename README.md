@@ -1,6 +1,6 @@
 #  Cloud Sentinel: High-Availability Reliability Monitor
 
-**Cloud Sentinel** is a full-stack SRE (Site Reliability Engineering) platform designed to monitor distributed microservices, track real-time telemetry, and manage the incident response lifecycle. Built with a focus on **Security-by-Design** and **System Resilience**.
+**Cloud Sentinel** is a full-stack SRE (Site Reliability Engineering) platform designed to monitor distributed microservices, track real-time telemetry, and manage the incident response lifecycle. It is built with a focus on **Security-by-Design** and **System Resilience**.
 
 ##  Key Features
 
